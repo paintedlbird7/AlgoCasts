@@ -9,16 +9,14 @@
 //   fib(4) === 3
 
 function fib(n) {
-    if (n < 2) {
-      return n;
-    }
-    {
-      return fib(n - 1) + fib(n - 2);
-    }
+  if (n < 2) {
+    return n;
   }
-  
-  // console.log("fib:", 1);
-  // console.log("fib:", 2);
-  
-  module.exports = fib;
-  
+  { return fib(n - 1) + fib(n - 2);
+  }
+}
+
+// console.log("fib:", 1);
+// console.log("fib:", 2);
+
+module.exports = fib;
