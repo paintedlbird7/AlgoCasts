@@ -7,10 +7,17 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
+// input: string
+// output:  boolean T/F
+
+// reverse string method
+// compare the two strings if it matches
+
 function palindrome(str) {
     const reversed = str.split("").reverse().join("")
 
     return reversed === str;
 }
+console.log(palindrome('pennep')); //true
 
 module.exports = palindrome;
